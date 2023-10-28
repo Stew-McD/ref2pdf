@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import logging
-
+import random
 from downloaders.direct_download import direct_download
 from config import SCIHUB_DOMAINS, VERBOSE
 from utils.file_checks import make_safe_filename
@@ -38,6 +38,7 @@ def download_from_scihub(doi, title):
     safe_title = make_safe_filename(title)
     logger.debug(f"Safe title for DOI: {doi}: {safe_title}")
     
+    random.shuffle(SCIHUB_DOMAINS)
     for domain in SCIHUB_DOMAINS:
         try:
             pdf_url = get_pdf_url_from_scihub(doi, domain)

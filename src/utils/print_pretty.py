@@ -71,15 +71,15 @@ def print_results(df):
 # make a table to print the failed downloads
 
 # Set the maximum width for columns to enable text wrapping
-    section4 = PrettyTable()
-    section4.max_width["Title"] = 60  # Adjust the value to your desired width
-    section4.max_width["DOI"] = 32    # Adjust the value to your desired width
-    section4.max_width["URL"] = 60    # Adjust the value to your desired width
-    # section4.set_style('ROUNDED')
-    section4.field_names = ["Title", "DOI", "URL"]
-    for idx, row in df.iterrows():
-        if row.downloaded == "failed":
-            section4.add_row([row.title, row.doi, row.url])
+    # section4 = PrettyTable()
+    # section4.max_width["Title"] = 60  # Adjust the value to your desired width
+    # section4.max_width["DOI"] = 32    # Adjust the value to your desired width
+    # section4.max_width["URL"] = 60    # Adjust the value to your desired width
+    # # section4.set_style('ROUNDED')
+    # section4.field_names = ["Title", "DOI", "URL"]
+    # for idx, row in df.iterrows():
+    #     if row.downloaded == "failed":
+    #         section4.add_row([row.title, row.doi, row.url])
             
     # Print the tables with decorative headers
     print("\n===== Finished literature download =====")
@@ -94,12 +94,12 @@ def print_results(df):
     print(section3)
     print("-" * 32)
     
-    SEE_FAILED = input('Do you want to print the failed downloads? (y/n): ')
-    if SEE_FAILED == 'y':
-        section4.align["Title"] = "l"
-        section4.align["DOI"] = "l"
-        section4.align["URL"] = "l"
-        section4.hrules = ALL
-        print('\n\tFAILED DOWNLOADS')
-        print(section4)
-        print(f"\n{'='*32}\n")
+    # SEE_FAILED = input('Do you want to print the failed downloads? (y/n): ')
+    # if SEE_FAILED == 'y':
+    #     section4.align["Title"] = "l"
+    #     section4.align["DOI"] = "l"
+    #     section4.align["URL"] = "l"
+    #     section4.hrules = ALL
+    #     print('\n\tFAILED DOWNLOADS')
+    #     print(section4)
+    #     print(f"\n{'='*32}\n")

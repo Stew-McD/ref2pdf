@@ -6,9 +6,9 @@ from pathlib import Path
 # Get the root directory of the project
 DIR_ROOT = Path(__file__).resolve().parents[1]
 
-FILE_IN = 'bib_extended.txt'
-VERBOSE = True
-DELETE = False
+FILE_IN = 'bibliography_1.txt'
+VERBOSE = False
+DELETE = True
 
 # CHOICE OF DOWNLOAD METHODS
 DIRECT = 1
@@ -22,25 +22,28 @@ DIR_DATA = DIR_ROOT / "data"
 DIR_INPUT = DIR_DATA / "input"
 DIR_OUTPUT = DIR_DATA / "output"
 
-FILE_IN = DIR_INPUT / FILE_IN
 DIR_BIB = DIR_OUTPUT / "bib"
 DIR_PDF = DIR_OUTPUT / "pdf"
 DIR_FAIL = DIR_OUTPUT / "failed_downloads"
 DIR_TMP = DIR_OUTPUT / "tmp"
 DIR_LOG = DIR_OUTPUT / "log"
 
-FILE_OUT_BIB = DIR_BIB / (FILE_IN.stem + "_out.bib")
-FILE_OUT_CSV = DIR_BIB / (FILE_IN.stem + "out.csv")  
+FILE_OUT_BIB = DIR_BIB / (FILE_IN.split('.')[0] + "_out.bib")
+FILE_OUT_CSV = DIR_BIB / (FILE_IN.split('.')[0] + "_out.csv")  
 FILE_LOG = DIR_LOG / "ref2pdf.log"
 
 
 for directory in [DIR_DATA, DIR_INPUT, DIR_OUTPUT, DIR_BIB, DIR_PDF, DIR_FAIL, DIR_TMP, DIR_LOG]:
-    if DELETE and directory != DIR_INPUT:
+    if DELETE and directory:
         shutil.rmtree(directory, ignore_errors=True)
     directory.mkdir(parents=True, exist_ok=True)
+    
+shutil.copy(DIR_ROOT / FILE_IN, DIR_INPUT / FILE_IN)
+FILE_IN = DIR_INPUT / FILE_IN
+
 
 ## SCI-HUB SETTINGS
-SCIHUB_DOMAINS = ['org', 'ru', 'se', 'cc', 'ee']
+SCIHUB_DOMAINS = ['org', 'ru', 'se', 'cc', 'ee', 'wf', 'st']
 
 ## UNPAYWALL SETTINGS
 UNPAYWALL_API_KEY = (os.environ.get('UNPAYWALL_API_KEY'), None)

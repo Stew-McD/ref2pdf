@@ -17,7 +17,7 @@ from chromedriver_autoinstaller import install as chromedriver_install
 # Suppress only the single InsecureRequestWarning from urllib3
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-from config import HEADERS, TIMEOUT, DIR_PDF, DIR_FAIL, DIR_ROOT
+from config import HEADERS, TIMEOUT, DIR_PDF, DIR_FAIL, DIR_ROOT, VERBOSE
 
 from downloaders.direct_download import direct_download
 
