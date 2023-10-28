@@ -1,0 +1,52 @@
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: st
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: se
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: se
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: ee
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: se
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: se
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: se
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: se
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: se
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: st
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: st
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: wf
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: ee
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: wf
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: wf
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: wf
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+INFO:downloaders.scihub:Download successful from Sci-Hub using domain: ee
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+ERROR:downloaders.scihub:Error while fetching PDF URL from Sci-Hub (Domain: org): ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))

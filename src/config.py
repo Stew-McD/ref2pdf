@@ -6,9 +6,9 @@ from pathlib import Path
 # Get the root directory of the project
 DIR_ROOT = Path(__file__).resolve().parents[1]
 
-FILE_IN = 'bibliography_1.txt'
+FILE_IN = 'bibliography.bib'
 VERBOSE = False
-DELETE = True
+DELETE = False
 
 # CHOICE OF DOWNLOAD METHODS
 DIRECT = 1
@@ -17,7 +17,7 @@ SCIHUB = 1
 SCRAPER = 0
 
 # File paths and directories
-DIR_DATA = DIR_ROOT / "data"
+DIR_DATA = DIR_ROOT / "example"
 
 DIR_INPUT = DIR_DATA / "input"
 DIR_OUTPUT = DIR_DATA / "output"
@@ -43,11 +43,11 @@ FILE_IN = DIR_INPUT / FILE_IN
 
 
 ## SCI-HUB SETTINGS
-SCIHUB_DOMAINS = ['org', 'ru', 'se', 'cc', 'ee', 'wf', 'st']
+SCIHUB_DOMAINS = ['org', 'se', 'cc', 'ee', 'wf', 'st']
 
 ## UNPAYWALL SETTINGS
 UNPAYWALL_API_KEY = (os.environ.get('UNPAYWALL_API_KEY'), None)
-UNPAYWALL_EMAIL = (os.environ.get('UNPAYWALL_EMAIL'), 'scm@pm.me')
+UNPAYWALL_EMAIL = (os.environ.get('UNPAYWALL_EMAIL'), 'xy@ab.nz')
 
     
 ## SCRAPER SETTINGS
