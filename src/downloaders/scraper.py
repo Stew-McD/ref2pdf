@@ -24,7 +24,7 @@ from downloaders.direct_download import direct_download
 
 # Function to find PDF URLs from a webpage
 
-def find_pdf_url(url, title):
+def find_pdf_url(url, title, ID):
     
     if not title:
         title = url
@@ -64,7 +64,8 @@ def find_pdf_url(url, title):
             print(f"Scraped from PDF URL at '{pdf_url}'")
             return pdf_url  # Return the successful URL
         
-    safe_title = ''.join(e for e in title if e.isalnum() or e.isspace()).replace(' ', '_')
+    # safe_title = ''.join(e for e in title if e.isalnum() or e.isspace()).replace(' ', '_')
+    safe_title = ID
     driver = webdriver.Chrome(options=chrome_options)
     try:
         driver.get(url)
